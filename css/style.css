@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*header start*/
+header{
+    background-color:#121b2a;
+    padding:10px 0;
+    
+    /*border:1px solid red;*/
+}
+.wrapper {
+    overflow:hidden;
+    margin:0 auto;
+    width:80%;
+    /*border:1px solid white;*/
+}
+
+.logo {
+    float:left;
+    width:15%;
+    /*border:1px solid white;*/
+}
+.logo img{
+    width:100%
+}
+
+.menu {
+    float:right;
+    width:50%;
+    margin-top:15px;
+    /*border:1px solid white;*/
+}
+.menu ul{
+    float:right;
+}
+.menu ul li{
+    list-style:none;
+    float:left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+    color:white;
+    transition:.5s;
+}
+.menu ul li:last-child a{
+    padding-right:0;
+}
+.menu ul li a:hover{
+    color:#0077bd;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-image:url(../images/watch.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+
+}
+.banner_content{
+    margin-top:200px;
+    margin-bottom:50px;
+    width:40%;
+    font-family:sans-serif;
+    /*border:1px solid red;*/
+}
+.banner_content p:first-child{
+    color: white;
+    font-size: 30px;    
+}
+.banner_content h1{
+    font-size: 40px;
+    color: #0075b8;
+}
+.banner_content p:nth-last-child(2){
+    color:white;
+    line-height: 30px;
+}
+.banner_content button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #5a5a5a;
+    margin-top: 20px;
+    background-color: white;
+    text-transform: uppercase;
+}
+.banner_content button span{
+    background-color: blue;
+    padding: 4px 7px;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+}
+/*banner end*/
+/*service start*/
+.service{
+    background-color: #121b2c;
+    padding: 50px 0;
+    /*border:1px solid white;*/
+}
+.single{
+    width:28%;
+    margin-left:10px;
+    padding: 10px 20px;
+    float:left;
+    border-right: 1px solid white;
+}
+.single:last-child{
+    border:0;
+}
+.title{
+    overflow:hidden;
+}
+.icon{
+    float:left;
+    width:20%;
+   /* border:1px solid red;*/
+}
+.icon img{
+    width: 100%;
+}
+.icon_content{
+    float:left;
+    width:65%;
+    margin-top: 15px;
+    /*border:1px solid red;*/
+}
+.icon_content p{
+    font-family: sans-serif;
+    font-size:20px;
+    font-weight:normal;
+    color: white;
+}
+.icon_content h2{
+    font-family: sans-serif;
+    font-size:20px;
+    font-weight:normal;
+    color: #0c70b0;
+}
+.content{}
+.content p{
+    margin-top:5px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 25px;
+    /*border:1px solid red;*/
+}
+.icon_content p span{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #0077bc;
+}
+.icon_content p:last-child{
+    margin-top: 25px;
+}
+
+/*service end*/
